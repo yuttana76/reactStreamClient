@@ -5,6 +5,7 @@ const INTIAL_STATE = {
   userId: null
 };
 
+/* eslint import/no-anonymous-default-export: [2, {"allowArrowFunction": true}] */
 export default (state = INTIAL_STATE, action) => {
   switch (action.type) {
     case SIGN_IN:
